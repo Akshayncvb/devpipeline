@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout from your repo's main branch
-                git url: 'https://github.com/Akshayncvb/devpipeline.git', branch: 'main'
+                git url: 'https://github.com/Akshayncvb/devpipeline/tree/main', branch: 'main'
             }
         }
         stage('Build') {
